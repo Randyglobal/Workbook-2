@@ -15,6 +15,7 @@ public class CellPhoneApplication {
         CellPhone cellPhone = getCellPhoneData();
 //        And all the literals are been displayed
         displayCellPhoneInformation(cellPhone);
+        scanner.close();
     }
 //    function to display
     public static void display(String message){

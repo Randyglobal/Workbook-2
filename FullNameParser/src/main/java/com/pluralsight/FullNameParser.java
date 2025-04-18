@@ -11,9 +11,11 @@ public class FullNameParser {
         getUserFirstName();
         getUserMiddleName();
     }
+
     public static void display(String message) {
         System.out.println(message);
     }
+
     public static void getUserFullName() {
         System.out.println("Please enter Full Name: ");
         Scanner scanner = new Scanner(System.in);
