@@ -1,11 +1,11 @@
 package com.pluralsight;
 
 public class CellPhone {
-        private int serialNumber;
-        private String model;
-        private String carrier;
-        private String phoneNumber;
-        private String owner;
+        private int serialNumber = 0;
+        private String model = "";
+        private String carrier = "";
+        private String phoneNumber = "";
+        private final String owner;
 
         //    Constructor
 //    Instantiating the state of the object and assigning the original modal to the parameters
