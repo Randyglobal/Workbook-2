@@ -9,6 +9,10 @@ public class RollTheDice {
     static int sevenCounter = 0;
     public static void main(String[] args) {
         Dice dice = new Dice();
+        looping(dice);
+        results();
+    }
+    public static void looping(Dice dice){
         for(int i = 0; i < 20; i++){
             roll1 = dice.roll();
             roll2 = dice.roll();
@@ -25,7 +29,6 @@ public class RollTheDice {
                 sevenCounter++;
             }
         }
-        results();
     }
     public static String displayResult(String message){
         System.out.println(message);
